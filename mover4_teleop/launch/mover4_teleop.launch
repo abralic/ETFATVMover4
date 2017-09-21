@@ -1,0 +1,8 @@
+<launch>
+
+<!-- A simple launch file for the mover4_teleop package. -->
+
+  <node name="mover4_teleop" pkg="mover4_teleop" type="mover4_teleop.py" output="screen">    
+  </node>
+
+</launch>
