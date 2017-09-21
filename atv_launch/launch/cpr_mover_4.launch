@@ -1,0 +1,5 @@
+<launch>
+	<node name="cpr_mover" pkg="cpr_mover" type="cpr_mover">
+	<param name="frame_id" value="mover4" />
+	</node>
+</launch>

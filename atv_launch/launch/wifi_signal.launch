@@ -1,0 +1,5 @@
+<launch>
+	<node name="wifi_signal_node_py" pkg="wifi_signal" type="wifi_publisher.py" >
+	<param name= "_interface" value="wlan0" />
+	</node>
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+	<node name="urg_node" pkg="urg_node" type="urg_node">
+	   <param name="frame_id" value="laser" />
+ 	</node>
+</launch>
